@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/bg"
+    android:background="#92ddc8"
+    tools:context=".MainActivity">
+
+    <EditText
+        android:id="@+id/changeLabelField"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="50dp"
+        android:hint="Change words"
+        android:textSize="20dp"
+        android:fontFamily="monospace"
+        android:textColor="#e0dcdc"
+        android:textColorHint="#D3D1D1"
+        android:backgroundTint="#e0dcdc"/>
+
+    <TextView
+        android:id="@+id/helloView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hello World!"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="250dp"
+        android:textSize="25sp"
+        android:textColor="#e0dcdc"
+        android:textAlignment="center"
+        android:fontFamily="monospace"/>
+
+    <Switch
+        android:id="@+id/switchTextColor"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="600dp"
+        android:scaleX="1.9"
+        android:scaleY="1.9" />
+
+    <Switch
+        android:id="@+id/switchBgColor"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="270dp"
+        android:layout_marginTop="600dp"
+        android:scaleX="1.9"
+        android:scaleY="1.9" />
+
+    <RadioButton
+        android:id="@+id/changeLabelButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="320dp"
+        android:layout_marginTop="60dp"
+        android:scaleX="1.5"
+        android:scaleY="1.5"
+        android:buttonTint="#e0dcdc"/>
+
+</RelativeLayout>
